@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="AI 시대, 퇴직을 준비하거나 새로운 역할을 찾는 50+가 자신의 경험을 다음 일로 전환하도록 돕는 이승원의 공식 웹사이트입니다.">
+  <meta name="theme-color" content="#05353B">
+  <title>이승원 | AI 시대 경력전환 전문가</title>
+  <style>
+    :root{--deep:#032b30;--teal:#05353b;--teal2:#0c5963;--mint:#eaf2f1;--amber:#c07a10;--amber2:#f3e4c9;--bg:#f7f5f0;--paper:#fff;--ink:#20292b;--muted:#687477;--line:#d7dfde;--max:1160px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:82px}body{margin:0;background:var(--bg);color:var(--ink);font-family:"Pretendard","Noto Sans KR","Malgun Gothic",Arial,sans-serif;line-height:1.7;word-break:keep-all}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}.skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:16px;z-index:100;background:#fff;padding:10px 14px}
+    header{position:sticky;top:0;z-index:20;background:rgba(247,245,240,.94);border-bottom:1px solid rgba(5,53,59,.12);backdrop-filter:blur(16px)}.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{color:var(--teal);font-weight:900}.brand small{display:block;color:var(--muted);font-size:.66rem;letter-spacing:.11em}nav{display:flex;gap:24px;font-size:.78rem;font-weight:800;letter-spacing:.055em}nav a{padding:28px 0 24px;border-bottom:3px solid transparent}nav a:hover,nav a:focus-visible{color:var(--teal2);border-color:var(--amber)}.menu{display:none;border:1px solid var(--line);border-radius:7px;background:transparent;padding:8px 11px;color:var(--teal);font-weight:800}
+    h1,h2,h3,p{margin-top:0}h1{max-width:900px;margin-bottom:28px;font-size:clamp(3rem,7vw,6.2rem);line-height:1;letter-spacing:-.06em}h2{margin-bottom:14px;color:var(--teal);font-size:clamp(2rem,4vw,3.2rem);line-height:1.16;letter-spacing:-.04em}h3{margin-bottom:10px;color:var(--teal);font-size:1.3rem;line-height:1.4}.eyebrow{margin-bottom:15px;color:var(--amber);font-size:.73rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase}.lead{max-width:760px;color:var(--muted);font-size:1.08rem}.section{padding:104px 0}.section.white{background:var(--paper)}.section.soft{background:var(--mint)}.section-head{max-width:780px;margin-bottom:42px}
+    .hero{position:relative;overflow:hidden;background:var(--teal);color:#fff}.hero:after{content:"NEXT";position:absolute;right:-.02em;bottom:-.28em;color:rgba(255,255,255,.035);font-size:min(30vw,410px);font-weight:950;letter-spacing:-.08em}.hero .wrap{position:relative;z-index:1;padding-top:126px;padding-bottom:105px}.hero .eyebrow{color:#efc57e}.hero-copy{max-width:780px;margin-bottom:34px;color:#d9e7e5;font-size:clamp(1.1rem,2vw,1.4rem)}.actions{display:flex;flex-wrap:wrap;gap:12px}.btn{display:inline-flex;min-height:50px;align-items:center;justify-content:center;padding:0 21px;border:1px solid transparent;border-radius:7px;font-weight:850}.btn.primary{background:var(--amber);color:#fff}.btn.primary:hover{background:#a9670d}.btn.ghost{border-color:rgba(255,255,255,.45);color:#fff}.btn.ghost:hover{background:rgba(255,255,255,.08)}.identity{display:flex;gap:20px;align-items:center;margin-top:76px;color:#c4d8d5;font-size:.88rem}.identity:before{content:"";width:62px;height:2px;background:var(--amber)}
+    .questions{display:grid;grid-template-columns:.78fr 1.22fr;gap:clamp(40px,7vw,100px);align-items:start}.big-question{padding-left:24px;border-left:5px solid var(--amber);color:var(--teal);font-size:clamp(1.7rem,3vw,2.55rem);font-weight:900;line-height:1.4}.question-list{display:grid;border-top:1px solid var(--line)}.question{display:grid;grid-template-columns:48px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}.question b{color:var(--amber);font-size:.75rem}.question span{font-size:1.07rem;font-weight:700}
+    .framework{padding:46px;background:var(--paper);border:1px solid #c7d8d5;border-radius:16px}.framework-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:46px}.framework-no{color:var(--amber);font-size:.72rem;font-weight:900;letter-spacing:.14em}.framework-no strong{display:block;margin:8px 0 20px;color:var(--teal);font-size:5rem;line-height:.9;letter-spacing:-.08em}.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:28px}.step{position:relative;padding:18px 13px;background:var(--mint);border:1px solid #c7d8d5;border-radius:8px;color:var(--teal);font-size:.86rem;font-weight:850;text-align:center}.step:not(:last-child):after{content:"→";position:absolute;right:-10px;top:50%;z-index:2;transform:translateY(-50%);color:var(--amber)}
+    .program-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{padding:32px;background:var(--paper);border:1px solid var(--line);border-radius:12px}.card.primary-program{background:var(--teal);border-color:var(--teal);color:#fff}.card.primary-program h3{color:#fff}.card p{margin-bottom:0;color:var(--muted)}.card.primary-program p{color:#d9e7e5}.label{display:inline-block;margin-bottom:18px;color:var(--amber);font-size:.7rem;font-weight:900;letter-spacing:.12em}.program-wide{grid-column:1/-1;display:grid;grid-template-columns:.75fr 1.25fr;gap:30px}.program-wide h3,.program-wide p{margin:0}
+    .book-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.book{display:flex;min-height:260px;flex-direction:column;justify-content:space-between;padding:28px;background:var(--paper);border:1px solid var(--line);border-top:5px solid var(--teal2);border-radius:8px}.book.published{border-top-color:var(--amber)}.status{align-self:flex-start;padding:5px 9px;background:var(--mint);border-radius:4px;color:var(--teal2);font-size:.68rem;font-weight:900;letter-spacing:.08em}.published .status{background:var(--amber2);color:#815000}.book h3{margin:34px 0 0;font-size:1.38rem}.book p{margin:11px 0 0;color:var(--muted);font-size:.9rem}
+    .insight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.insight{padding:28px;border-top:1px solid var(--teal);background:rgba(255,255,255,.55)}.insight b{display:block;margin-bottom:12px;color:var(--teal);font-size:1.12rem}.insight p{margin-bottom:0;color:var(--muted);font-size:.93rem}
+    .insight-posts{display:grid;gap:2px;margin-top:16px}.insight-post{display:flex;justify-content:space-between;gap:16px;padding:18px 22px;background:var(--paper);border:1px solid var(--line);border-radius:8px;font-weight:800;color:var(--teal)}.insight-post span{color:var(--amber);font-weight:900;font-size:.72rem;letter-spacing:.08em}.insight-post:hover{border-color:var(--amber)}
+    .about{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(48px,8vw,110px)}.about-copy{font-size:1.12rem}.proof{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:26px}.proof div{padding:18px 0;border-top:1px solid var(--line)}.proof b{display:block;color:var(--teal);font-size:1.3rem}.proof span{color:var(--muted);font-size:.86rem}
+    .contact{padding:82px 0;background:var(--teal);color:#fff}.contact-grid{display:grid;grid-template-columns:1fr .8fr;gap:70px;align-items:end}.contact h2{color:#fff}.contact p{color:#d9e7e5}.contact-box{padding:25px;border:1px solid rgba(255,255,255,.22);border-radius:10px}.contact-box b{display:block;margin-bottom:8px;color:#efc57e}.contact-box span{color:#d9e7e5}footer{padding:30px 0;background:var(--deep);color:#b9cdca;font-size:.82rem}.foot{display:flex;justify-content:space-between;gap:20px}.foot strong{color:#fff}
+    @media(max-width:900px){nav{position:absolute;left:0;right:0;top:78px;display:none;flex-direction:column;gap:0;padding:12px 24px 20px;background:var(--bg);border-bottom:1px solid var(--line)}nav.open{display:flex}nav a{padding:12px 0;border-bottom:1px solid var(--line)}.menu{display:block}.questions,.framework-grid,.about,.contact-grid{grid-template-columns:1fr}.flow{grid-template-columns:1fr}.step:not(:last-child):after{content:"↓";right:auto;left:50%;top:auto;bottom:-19px;transform:translateX(-50%)}.book-grid,.insight-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:620px){.wrap{width:min(var(--max),calc(100% - 32px))}.section{padding:76px 0}.hero .wrap{padding-top:88px;padding-bottom:82px}.program-grid,.book-grid,.insight-grid,.proof{grid-template-columns:1fr}.program-wide{grid-column:auto;grid-template-columns:1fr}.framework{padding:27px}.framework-no strong{font-size:3.4rem}.foot{display:block}.identity{margin-top:54px}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 이동</a>
+  <header><div class="wrap nav">
+    <a class="brand" href="#home">이승원 | LEE SEUNG WON<small>AI 시대 경력전환 전문가</small></a>
+    <button class="menu" type="button" aria-controls="site-nav" aria-expanded="false">메뉴</button>
+    <nav id="site-nav" aria-label="주요 메뉴"><a href="#about">ABOUT</a><a href="#insights">INSIGHTS</a><a href="#books">BOOKS</a><a href="#programs">PROGRAMS</a><a href="#framework">FRAMEWORKS</a><a href="#contact">CONTACT</a></nav>
+  </div></header>
+  <main id="main">
+    <section class="hero" id="home"><div class="wrap">
+      <p class="eyebrow">Experience · AI · Career Transition</p>
+      <h1>경험을<br>다음 일로 바꾸다.</h1>
+      <p class="hero-copy">퇴직을 준비하거나 새로운 역할을 찾는 50+가 자신의 경험을 과업과 기회로 전환하도록 돕습니다.</p>
+      <div class="actions"><a class="btn primary" href="#insights">경력전환 인사이트</a><a class="btn ghost" href="#contact">강의·프로그램 문의</a></div>
+      <div class="identity">이승원 · AI 시대 경력전환 전문가</div>
+    </div></section>
+    <section class="section white"><div class="wrap questions">
+      <div><p class="eyebrow">The Question</p><div class="big-question">직함이 사라진 뒤에도<br>나의 경험은 어디에서 필요한가?</div></div>
+      <div class="question-list">
+        <div class="question"><b>01</b><span>내가 해온 일을 직함 없이 어떻게 설명할 것인가</span></div>
+        <div class="question"><b>02</b><span>AI가 도울 일과 내가 판단할 일을 어떻게 나눌 것인가</span></div>
+        <div class="question"><b>03</b><span>재취업·자문·교육·프로젝트를 어떻게 조합할 것인가</span></div>
+      </div>
+    </div></section>
+    <section class="section soft" id="framework"><div class="wrap">
+      <div class="section-head"><p class="eyebrow">Representative Framework</p><h2>경험자산 과업전환 모델</h2><p class="lead">긴 경력을 직함과 연차로 설명하지 않고, 반복해 해결한 문제와 판단 과업으로 분해해 다음 역할과 연결합니다.</p></div>
+      <article class="framework"><div class="framework-grid"><div class="framework-no">LSW FRAMEWORK<strong>01</strong><p>50+ 경력전환을 위한 대표 작업모델</p></div><div><h3>경험에서 역할 포트폴리오까지</h3><p>AI가 도울 수 있는 일과 사람이 경험으로 판단해야 할 일을 구분한 뒤, 실제 수요와 연결될 역할을 설계합니다.</p><div class="flow"><span class="step">경험·전문성 목록</span><span class="step">과업 분해</span><span class="step">AI·사람 역할 재배분</span><span class="step">수요 연결</span><span class="step">역할 포트폴리오</span></div></div></div></article>
+    </div></section>
+    <section class="section white" id="programs"><div class="wrap">
+      <div class="section-head"><p class="eyebrow">Programs</p><h2>강의에서 개인의 다음 역할까지</h2><p class="lead">대상의 상황과 기관의 목적에 맞춰 강의, 워크숍과 다회차 프로그램으로 구성합니다.</p></div>
+      <div class="program-grid">
+        <article class="card primary-program"><span class="label">REPRESENTATIVE</span><h3>AI 시대, 경험을 다음 일로 바꾸다</h3><p>50+ 경험자가 자신의 경력을 과업으로 분해하고 새로운 일과 역할의 가능성을 찾는 대표 강의·워크숍입니다.</p></article>
+        <article class="card"><span class="label">FOR ORGANIZATIONS</span><h3>퇴직예정자 역할 포트폴리오 설계</h3><p>기업과 공공기관의 전직지원·생애설계 프로그램에 경험자산 과업전환 모델을 적용합니다.</p></article>
+        <article class="card program-wide"><h3>대학 진로교육</h3><p>《우연이 만드는 진로》와 행동–경험 순환 학습 모델을 기반으로 대학생이 작은 행동과 경험을 통해 다음 선택을 만들도록 돕는 별도 프로그램입니다.</p></article>
+      </div>
+    </div></section>
+    <section class="section" id="books"><div class="wrap">
+      <div class="section-head"><p class="eyebrow">Selected Books</p><h2>경력전환의 질문을 책으로 축적합니다</h2><p class="lead">현재 브랜드 방향과 직접 연결되는 대표 도서입니다. 출간작과 전체 집필 목록은 Books에서 확인할 수 있습니다.</p></div>
+      <div class="book-grid">
+        <article class="book published"><span class="status">출간</span><div><h3>《번아웃 이후, 다시 그리는 커리어》</h3><p>소진 이후 자신을 회복하고 일과 경력을 다시 설계하는 과정.</p></div></article>
+        <article class="book"><span class="status">집필 중</span><div><h3>《조직 밖에서도 나는 전문가다》</h3><p>직함이 사라진 뒤에도 경험과 전문성을 새로운 역할로 연결하는 법.</p></div></article>
+        <article class="book"><span class="status">준비 중</span><div><h3>《AI 시대, 시니어의 일은 다시 만들어진다》</h3><p>AI와 시니어 경험을 결합해 새로운 과업과 역할을 만드는 방법.</p></div></article>
+      </div>
+    </div></section>
+    <section class="section soft" id="insights"><div class="wrap">
+      <div class="section-head"><p class="eyebrow">Insights</p><h2>50+의 다음 일을 연구합니다</h2><p class="lead">Career Transition Lab은 생각노트, Framework와 보고서를 세 가지 질문 아래 축적합니다.</p></div>
+      <div class="insight-grid">
+        <article class="insight"><b>경험의 전환</b><p>직함과 연차로 굳어진 경력을 문제해결 과업과 판단 역량으로 번역합니다.</p></article>
+        <article class="insight"><b>AI와 다음 일</b><p>AI가 도울 일과 사람이 맡을 판단을 구분해 새로운 과업을 설계합니다.</p></article>
+        <article class="insight"><b>정년 이후 역할</b><p>재취업, 자문, 교육, 프로젝트와 콘텐츠를 역할 포트폴리오로 조합합니다.</p></article>
+      </div>
+      <div class="insight-posts">
+        <a class="insight-post" href="insights/career-beyond-job-title.html"><span>경험의 전환</span>30년 경력을 직함 한 줄로 적으면 무엇이 사라지는가 →</a>
+      </div>
+    </div></section>
+    <section class="section white" id="about"><div class="wrap about">
+      <div><p class="eyebrow">About</p><h2>현장의 경험을 다음 역할의 언어로 바꿉니다</h2></div>
+      <div class="about-copy"><p>기업에서 32년간 기술과 시장의 불확실성을 사업과 실행의 언어로 바꾸고, 대학에서 7년간 진로와 취업을 가르쳤습니다.</p><p>현재는 AI가 일과 경력에 미치는 변화를 연구하며, 퇴직을 준비하거나 새로운 역할을 찾는 50+가 자신의 경험을 다음 과업과 역할로 전환하는 방법을 교육하고 있습니다.</p><div class="proof"><div><b>32년</b><span>기술·사업·제조 현장</span></div><div><b>7년</b><span>대학 진로·취업 교육</span></div></div></div>
+    </div></section>
+    <section class="contact" id="contact"><div class="wrap contact-grid">
+      <div><p class="eyebrow">Contact</p><h2>강의·워크숍·자문 문의</h2><p>기업, 대학과 공공기관의 목적에 맞춰 50+ 경력전환 프로그램을 함께 설계합니다.</p></div>
+      <div class="contact-box"><b>CONTACT CHANNEL</b><span>공식 이메일과 외부 채널을 확정한 뒤 연결합니다.</span></div>
+    </div></section>
+  </main>
+  <footer><div class="wrap foot"><div><strong>이승원 | LEE SEUNG WON</strong><br>AI 시대 경력전환 전문가<br><span style="opacity:.7;font-size:.85em">전) HD 현대중공업 상무 · 한성대학교 교수</span></div><div>Career Transition Lab by Lee Seung Won</div></div></footer>
+  <script>
+    const button=document.querySelector('.menu');const nav=document.querySelector('#site-nav');
+    button.addEventListener('click',()=>{const open=nav.classList.toggle('open');button.setAttribute('aria-expanded',String(open));});
+    nav.addEventListener('click',e=>{if(e.target.tagName==='A'){nav.classList.remove('open');button.setAttribute('aria-expanded','false');}});
+  </script>
+</body>
+</html>

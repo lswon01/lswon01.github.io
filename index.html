@@ -22,7 +22,7 @@
     .contact{padding:82px 0;background:var(--teal);color:#fff}.contact-grid{display:grid;grid-template-columns:1fr .8fr;gap:70px;align-items:end}.contact h2{color:#fff}.contact p{color:#d9e7e5}.contact-box{padding:25px;border:1px solid rgba(255,255,255,.22);border-radius:10px}.contact-box b{display:block;margin-bottom:8px;color:#efc57e}.contact-box span{color:#d9e7e5}footer{padding:30px 0;background:var(--deep);color:#b9cdca;font-size:.82rem}.foot{display:flex;justify-content:space-between;gap:20px}.foot strong{color:#fff}
     @media(max-width:900px){nav{position:absolute;left:0;right:0;top:78px;display:none;flex-direction:column;gap:0;padding:12px 24px 20px;background:var(--bg);border-bottom:1px solid var(--line)}nav.open{display:flex}nav a{padding:12px 0;border-bottom:1px solid var(--line)}.menu{display:block}.questions,.framework-grid,.about,.contact-grid{grid-template-columns:1fr}.flow{grid-template-columns:1fr}.step:not(:last-child):after{content:"↓";right:auto;left:50%;top:auto;bottom:-19px;transform:translateX(-50%)}.book-grid,.insight-grid{grid-template-columns:repeat(2,1fr)}}
     @media(max-width:620px){.wrap{width:min(var(--max),calc(100% - 32px))}.section{padding:76px 0}.hero .wrap{padding-top:88px;padding-bottom:82px}.program-grid,.book-grid,.insight-grid,.proof{grid-template-columns:1fr}.program-wide{grid-column:auto;grid-template-columns:1fr}.framework{padding:27px}.framework-no strong{font-size:3.4rem}.foot{display:block}.identity{margin-top:54px}}
-  </style>
+  .book.published{display:grid;grid-template-columns:112px minmax(0,1fr);gap:22px;align-items:center;min-height:258px}.book-cover{display:block;width:112px;height:auto;box-shadow:0 10px 24px #032b3033}.book h3{margin-top:20px}@media(max-width:620px){.book.published{grid-template-columns:92px minmax(0,1fr);gap:15px;padding:20px}.book-cover{width:92px}.book h3{font-size:1.16rem;margin-top:16px}.book p{font-size:.82rem}}</style>
 </head>
 <body>
   <a class="skip" href="#main">본문으로 이동</a>
@@ -62,8 +62,8 @@
     <section class="section" id="books"><div class="wrap">
       <div class="section-head"><p class="eyebrow">Published Books</p><h2>진로와 경력의 전환을 책으로 풀어냈습니다</h2><p class="lead">현재 출간된 전자책 두 권입니다. 각 책의 독자와 내용을 확인하고 서점에서 자세히 살펴보세요.</p></div>
       <div class="book-grid">
-        <a class="book published" href="books/serendipity-career.html"><span class="status">출간 · 대학 진로교육</span><div><h3>《우연이 만드는 진로》</h3><p>대학생이 작은 행동과 경험으로 진로의 단서를 찾는 탐색 가이드.</p><strong>책 소개 보기 →</strong></div></a>
-        <a class="book published" href="books/career-after-burnout.html"><span class="status">출간 · 30대 직장인</span><div><h3>《번아웃 이후 다시 그리는 커리어》</h3><p>번아웃과 이직 고민 사이에서 90일간 다음 선택을 점검하는 책.</p><strong>책 소개 보기 →</strong></div></a>
+        <a class="book published" href="books/serendipity-career.html"><img class="book-cover" src="books/img/serendipity-career.jpg" alt="《우연이 만드는 진로》 표지" width="370" height="590"><div><span class="status">출간 · 대학 진로교육</span><h3>《우연이 만드는 진로》</h3><p>대학생이 작은 행동과 경험으로 진로의 단서를 찾는 탐색 가이드.</p><strong>책 소개 보기 →</strong></div></a>
+        <a class="book published" href="books/career-after-burnout.html"><img class="book-cover" src="books/img/career-after-burnout.jpg" alt="《번아웃 이후, 다시 그리는 커리어》 표지" width="480" height="720"><div><span class="status">출간 · 30대 직장인</span><h3>《번아웃 이후, 다시 그리는 커리어》</h3><p>번아웃과 이직 고민 사이에서 90일간 다음 선택을 점검하는 책.</p><strong>책 소개 보기 →</strong></div></a>
       </div>
       <p class="books-more"><a href="books/index.html">출간 도서 자세히 보기 →</a></p>
     </div></section>

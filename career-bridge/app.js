@@ -1,7 +1,7 @@
 'use strict';
 let jobs=[];
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const money=j=>j.pay_min?`${j.pay_min.toLocaleString()}${j.pay_max?'~'+j.pay_max.toLocaleString():' 이상'}만원`:'협의/미공개';
+const money=j=>j.pay_min?`${j.pay_min.toLocaleString()}${j.pay_max?'~'+j.pay_max.toLocaleString()+'만원':'만원 이상'}`:'협의/미공개';
 function scoreJob(j,p){
  const checks=[],add=(label,status,reason,points=0)=>checks.push({label,status,reason,points});
  add('희망 역할',p.targets.includes(j.role)?'충족':'미충족',p.targets.includes(j.role)?j.role+' 선택':'선택한 희망 역할과 다름',p.targets.includes(j.role)?20:0);

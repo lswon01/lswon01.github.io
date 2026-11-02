@@ -1,0 +1,167 @@
+[
+  {
+    "company": "카디넥",
+    "role": "생산관리",
+    "pay_min": 4000,
+    "pay_max": 8000,
+    "requirements": "생산계획·인원·공정·품질관리, 경력 3년 이상 우대",
+    "region": "부산",
+    "checked": "2026-11-02",
+    "skills": [
+      "생산",
+      "공정",
+      "품질",
+      "인원",
+      "계획"
+    ],
+    "url": "https://m.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=VALIDATION&infoTypeGroup=tb_workinfoworknet&wantedAuthNo=K130232610300003",
+    "source_status": "provided_unverified",
+    "experience_years": 3,
+    "experience_preferred": true,
+    "mandatory_skills": []
+  },
+  {
+    "company": "태인에프앤씨",
+    "role": "생산관리",
+    "pay_min": 3200,
+    "pay_max": 4000,
+    "requirements": "생산일정·도면·안전관리",
+    "region": "경기 안산",
+    "checked": "2026-11-02",
+    "skills": [
+      "생산",
+      "도면",
+      "안전",
+      "계획"
+    ],
+    "url": "https://m.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=VALIDATION&infoTypeGroup=tb_workinfoworknet&wantedAuthNo=K180512610300023",
+    "source_status": "provided_unverified",
+    "experience_years": null,
+    "experience_preferred": false,
+    "mandatory_skills": []
+  },
+  {
+    "company": "태인에프앤씨",
+    "role": "품질관리",
+    "pay_min": 5000,
+    "pay_max": null,
+    "requirements": "도면 검수·고객 대응·압력용기 품질, 경력 5년 이상 우대",
+    "region": "경기 안산",
+    "checked": "2026-11-02",
+    "skills": [
+      "품질",
+      "도면",
+      "고객",
+      "검수"
+    ],
+    "url": "https://m.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=VALIDATION&infoTypeGroup=tb_workinfoworknet&wantedAuthNo=K180512610300022",
+    "source_status": "provided_unverified",
+    "experience_years": 5,
+    "experience_preferred": true,
+    "mandatory_skills": []
+  },
+  {
+    "company": "태상산업",
+    "role": "품질관리",
+    "pay_min": 3500,
+    "pay_max": 4000,
+    "requirements": "공정운영·품질시스템·원인분석, 경력 2년 이상",
+    "region": "경남 김해",
+    "checked": "2026-11-02",
+    "skills": [
+      "품질",
+      "공정",
+      "원인분석",
+      "시스템"
+    ],
+    "url": "https://m.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=VALIDATION&infoTypeGroup=tb_workinfoworknet&wantedAuthNo=K131312610300047",
+    "source_status": "provided_unverified",
+    "experience_years": 2,
+    "experience_preferred": false,
+    "mandatory_skills": []
+  },
+  {
+    "company": "비지에프에코머티리얼즈",
+    "role": "경영기획",
+    "pay_min": null,
+    "pay_max": null,
+    "requirements": "경영·전략·사업개발 5~7년, 재무·손익·데이터 분석·경영보고",
+    "region": "서울",
+    "checked": "2026-11-02",
+    "skills": [
+      "경영기획",
+      "전략",
+      "사업개발",
+      "재무",
+      "손익",
+      "데이터"
+    ],
+    "url": "https://www.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=OEW&infoTypeGroup=tb_workinfoopen&wantedAuthNo=168479",
+    "source_status": "provided_unverified",
+    "experience_years": 5,
+    "experience_preferred": false,
+    "mandatory_skills": []
+  },
+  {
+    "company": "허스델리",
+    "role": "경영혁신",
+    "pay_min": 3400,
+    "pay_max": 3500,
+    "requirements": "경영혁신 전략·원가절감·프로세스 개선·경영지원",
+    "region": "충남 서천",
+    "checked": "2026-11-02",
+    "skills": [
+      "전략",
+      "원가",
+      "프로세스",
+      "개선",
+      "경영지원"
+    ],
+    "url": "https://www.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=VALIDATION&infoTypeGroup=tb_workinfoworknet&wantedAuthNo=K172222610140004",
+    "source_status": "provided_unverified",
+    "experience_years": null,
+    "experience_preferred": false,
+    "mandatory_skills": []
+  },
+  {
+    "company": "제아이엔지",
+    "role": "사업기획",
+    "pay_min": null,
+    "pay_max": null,
+    "requirements": "사업계획·전략기획·정부과제 수행, 정부과제 경력 필수",
+    "region": "강원 삼척",
+    "checked": "2026-11-02",
+    "skills": [
+      "사업기획",
+      "전략",
+      "정부과제",
+      "사업계획"
+    ],
+    "url": "https://m.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=KOS&infoTypeGroup=tb_workinfogubun&wantedAuthNo=230847",
+    "source_status": "provided_unverified",
+    "experience_years": null,
+    "experience_preferred": false,
+    "mandatory_skills": [
+      "정부과제"
+    ]
+  },
+  {
+    "company": "아시아전관",
+    "role": "경영관리",
+    "pay_min": 3600,
+    "pay_max": null,
+    "requirements": "경영업무관리, 경력 5년 이상 우대, 장년층 우대 명시",
+    "region": "경기 시흥",
+    "checked": "2026-11-02",
+    "skills": [
+      "경영",
+      "관리",
+      "기획"
+    ],
+    "url": "https://www.work24.go.kr/wk/a/b/1500/empDetailAuthView.do?infoTypeCd=VALIDATION&infoTypeGroup=tb_workinfoworknet&wantedAuthNo=K180522610070031",
+    "source_status": "provided_unverified",
+    "experience_years": 5,
+    "experience_preferred": true,
+    "mandatory_skills": []
+  }
+]
